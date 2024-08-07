@@ -86,7 +86,7 @@ header{
 .section{
     background: #936DFD;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,6 +193,7 @@ header{
     width: 100%;
     height: 420px;
     display: flex;
+    justify-content: center;
     gap: 20px;
     margin: 0 auto;
 }
