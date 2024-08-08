@@ -262,17 +262,34 @@ header{
 .lower-sec{
     max-width: 1100px;
     width: 100%;
-    height: 204px;
+    height: 245px;
     margin: 0 auto; 
     display: flex;
+    align-items: center;
+    justify-content: center;
+
     gap: 20px;
 }
 .item{
     max-width: 245px;
     width: 100%;
     height: 100%;
-    border: 1px solid #D9D9D9;
-    border-radius:  10px;
+    border-radius:  24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background: #936DFD;
+}
+.web-skills{
+    width: 100%;
+}
+.app-dev{
+    width: 100%;
+}
+.uiux{
+    width: 100%;
 }
 .about-me{
     width: 100%;
@@ -288,8 +305,11 @@ header{
     max-width: 520px;
     width: 100%;
     height: 456px;
-    border-radius: 10px;
-    background: #D9D9D9;
+    background-image: url(./images/spacers.png);
+    border-radius: 24px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .about-me-container{
     max-width: 520px;
@@ -317,44 +337,47 @@ header{
     font-size: 17px;
 }
 .about-card span{
-    width: 200px;
-    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #000;
-    border-radius: 8px;
     color: #fff;
+    width: 170px;
+    height: 50px;
+    border-radius: 17px;
+    cursor: pointer;
 }
 
 .about-card-1{
-    border-radius: 8px;
-    height: 188px;
-    border: 1px solid #E5E5E5;
+    border-radius: 24px;
+    height: 200px;
+    border: 1px solid #000;
     padding: 20px;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .img-ui{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     background: #D9D9D9;
     border-radius: 6px;
 }
 .about-details{
-    max-width: 372px;
+    max-width: 330px;
     width: 100%;
     height: 156px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-between;
 }
 .about-details h1{
     font-size: 20px;
     font-weight: 500;
 }
 .about-details p{
+
     font-size: 15px;
 }
 .sub-btn{
@@ -362,12 +385,12 @@ header{
     gap: 10px;
 }
 .btn-1{
-    padding: 0 10px;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: start;
-    height: 25px;
-    border-radius: 2px;
-    font-size: 12px;
-    background: #D9D9D9;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #000;
 }
